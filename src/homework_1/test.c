@@ -144,6 +144,3 @@ int main() {
   run_tests();
   return 0;
 }
-run_tests();
-return 0;
-}
