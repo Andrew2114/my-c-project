@@ -5,9 +5,9 @@
 #include <string.h>
 
 typedef struct {
-    int rows;
-    int cols;
-    char ***data;
+  int rows;
+  int cols;
+  char ***data;
 } Table;
 
 Table *createTable();
