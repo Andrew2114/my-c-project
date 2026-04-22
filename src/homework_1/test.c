@@ -4,6 +4,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+typedef struct {
+    int rows;
+    int cols;
+    char ***data;
+} Table;
+
 Table *createTable();
 int addRow(Table *t, char *line);
 void freeTable(Table *t);
